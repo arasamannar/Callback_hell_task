@@ -3,7 +3,7 @@ function countdownCallback(number) {
     document.getElementById("countdown").innerHTML = number;
   
     // If the number is 1, display "Happy Independence Day!" and stop the countdown.
-    if (number === 1) {
+    if (number === 0) {
       document.getElementById("countdown").innerHTML = "Happy Independence Day!";
       return;
     }
